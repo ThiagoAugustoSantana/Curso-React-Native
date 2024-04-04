@@ -33,7 +33,26 @@ import { Text, View, StyleSheet, SafeAreaView } from 'react-native'
 // import ContadorV2 from './components/contador/ContadorV2'
 
 // Aula 35:
-import Diferenciar from './components/Diferenciar'
+// import Diferenciar from './components/Diferenciar'
+
+// Aula 37:
+// import ParImpar from './components/ParImpar'
+
+// Aula 38:
+// import Familia from './components/relacao/Familia'
+// import Membro from './components/relacao/Membro'
+
+// Aula 39:
+// import UsusarioLogado from './components/UsusarioLogado'
+
+// Aula 40:
+// import ListaProdutos from './components/produtos/ListaProdutos'
+
+// Aula 41:
+// import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+
+// Aula 42:
+import DigiteSeuNome from './components/DigiteSeuNome'
 
 // Conteudo oculto, clique para expandir!!!
 // Componentes baseados em função:
@@ -117,7 +136,35 @@ export default () => (
 
         {/* <ContadorV2 /> */}
 
-        <Diferenciar />
+        {/* <Diferenciar /> */}
+
+        {/* <ParImpar num={3} /> */}
+
+        {/* Passando componentes dentro de outro:
+        <Familia>
+            <Membro nome="Bia" sobrenome="Arruda" />
+            <Membro nome="Carlos" sobrenome="Arruda" />
+        </Familia>
+        <Familia>
+            <Membro nome="Ana" sobrenome="Silva" />
+            <Membro nome="Julia" sobrenome="Silva" />
+            <Membro nome="Gui" sobrenome="Silva" />
+            <Membro nome="Rebeca" sobrenome="Silva" />
+        </Familia> */}
+
+        {/* Passando um objeto para um componenete:
+        Como tudo em JSX que esta entre {} é considerado JS, basta criar um objeto literal dentro.
+        <UsusarioLogado usuario={ {nome: 'Gui', email: 'gui@gui.com'} } />
+        <UsusarioLogado usuario={ {nome: 'Ana'} } />
+        <UsusarioLogado usuario={ {email: 'carlos@empresa.com'} } />
+        <UsusarioLogado usuario={null} />
+        <UsusarioLogado usuario={ {} } /> */}
+
+        {/* <ListaProdutos /> */}
+        
+        {/* <ListaProdutosV2 /> */}
+
+        <DigiteSeuNome />
 
     </SafeAreaView>
 )
