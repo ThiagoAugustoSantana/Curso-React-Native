@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, StyleSheet } from 'react-native'
+import { Text, View, StyleSheet, SafeAreaView } from 'react-native'
 
 // Aula 20:
 // import Primeiro from './components/Primeiro'
@@ -27,7 +27,13 @@ import { Text, View, StyleSheet } from 'react-native'
 // import Pai from './components/direta/Pai'
 
 // Aula 33:
-import Pai from './components/indireta/Pai'
+// import Pai from './components/indireta/Pai'
+
+// Aula 34:
+// import ContadorV2 from './components/contador/ContadorV2'
+
+// Aula 35:
+import Diferenciar from './components/Diferenciar'
 
 // Conteudo oculto, clique para expandir!!!
 // Componentes baseados em função:
@@ -78,7 +84,8 @@ import Pai from './components/indireta/Pai'
 // export default () => (<View><Primeiro /></View>)
 
 export default () => (
-    <View style={style.App}>
+    // Usar o SafeAreaView para ter o mesmo comportamento no android e ios.
+    <SafeAreaView style={style.App}>
         {/* O que é colocado entre chaves {} em JSX é interpretado como JS. EX: */}
         {/* <Text>{ 1 + 1 }</Text>
         <Primeiro />
@@ -106,9 +113,13 @@ export default () => (
 
         {/* <Pai /> */}
 
-        <Pai />
+        {/* <Pai /> */}
 
-    </View>
+        {/* <ContadorV2 /> */}
+
+        <Diferenciar />
+
+    </SafeAreaView>
 )
 
 const style = StyleSheet.create({
