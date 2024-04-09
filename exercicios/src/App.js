@@ -52,7 +52,22 @@ import { Text, View, StyleSheet, SafeAreaView } from 'react-native'
 // import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
 
 // Aula 42:
-import DigiteSeuNome from './components/DigiteSeuNome'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+
+// Aula 45:
+// import Quadrado from './components/layout/Quadrado'
+
+// Aula 46:
+// import FlexBoxV1 from './components/layout/FlexBoxV1'
+
+// Aula 47:
+// import FlexBoxV2 from './components/layout/FlexBoxV2'
+
+// Aula 48:
+// import FlexBoxV3 from './components/layout/FlexBoxV3'
+
+// Aula 49:
+import FlexBoxV4 from './components/layout/FlexBoxV4'
 
 // Conteudo oculto, clique para expandir!!!
 // Componentes baseados em função:
@@ -164,7 +179,20 @@ export default () => (
         
         {/* <ListaProdutosV2 /> */}
 
-        <DigiteSeuNome />
+        {/* <DigiteSeuNome /> */}
+
+        {/* <Quadrado/>
+        <Quadrado cor={'#900'} />
+        <Quadrado cor={'#090'} />
+        <Quadrado cor={'#009'} /> */}
+
+        {/* <FlexBoxV1 /> */}
+
+        {/* <FlexBoxV2 /> */}
+
+        {/* <FlexBoxV3 /> */}
+
+        <FlexBoxV4 />
 
     </SafeAreaView>
 )
