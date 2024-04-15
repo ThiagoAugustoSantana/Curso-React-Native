@@ -70,7 +70,10 @@ import { Text, View, StyleSheet, SafeAreaView } from 'react-native'
 // import FlexBoxV4 from './components/layout/FlexBoxV4'
 
 // Aula 50:
-import Mega from './components/mega/Mega'
+// import Mega from './components/mega/Mega'
+
+import Teste from './components/teste/Teste'
+import Teste2 from './components/teste/Teste2'
 
 // Conteudo oculto, clique para expandir!!!
 // Componentes baseados em função:
@@ -198,7 +201,9 @@ export default () => (
         {/* <FlexBoxV4 /> */}
 
         {/* Em componentes baseados em classe os parametros são passados da mesma forma. */}
-        <Mega qtdeNumeros={12} />
+        {/* <Mega qtdeNumeros={12} /> */}
+
+        <Teste />
 
     </SafeAreaView>
 )
